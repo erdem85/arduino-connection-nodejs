@@ -8,7 +8,7 @@ const adapter = new FileSync('./cdn/db.json')
 const db = low(adapter)
 
 web.set('view engine', 'ejs')
-web.get('/', (req, res) => res.render("index", {sicaklik: db.get("temp").value()}))
+web.get('/', (req, res) => res.render("index", {temp: db.get("temp").value()}))
 web.use('/cdn', express.static(__dirname + '/cdn'))
 
 web.get('/db', (req, res) => {

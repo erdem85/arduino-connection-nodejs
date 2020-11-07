@@ -1,7 +1,6 @@
 const
     five = require("johnny-five"),
     Discord = require("discord.js")
-
 const
     board = new five.Board(),
     client = new Discord.Client()

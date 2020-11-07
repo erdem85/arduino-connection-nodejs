@@ -22,7 +22,7 @@ web.get('/db', (req, res) => {
     return res.send({});
   }
   if(req.query.mod == "get"){
-    res.send({"value": db.get("temp").value()})
+    return res.send({"value": db.get("temp").value()});
   }
 })
 

@@ -19,4 +19,4 @@ board.on("ready", () => {
 });
 
 client.on("ready", () => console.log(`${client.user.tag} joined.`));
-client.login("NzcwMjE1MTYxOTM1NjkxODA2.X5aUxA.qn79et7-8NHG3itHbYEaWbZ7RvQ");
+client.login("your bot token");

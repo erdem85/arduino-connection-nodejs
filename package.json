@@ -1,0 +1,17 @@
+{
+  "name": "discord-arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "johnny-five": "^2.0.0"
+  },
+  "scripts": {
+    "test": "pm2 start index.js",
+    "or": " ",
+    "test1": "node index.js"
+  },
+  "author": "erdem",
+  "license": "ISC"
+}
